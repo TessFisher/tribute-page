@@ -1,2 +1,2 @@
 # tribute-page
-First html and css project
+first html and css project
