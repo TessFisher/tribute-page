@@ -1,0 +1,125 @@
+:root{
+    --dark-brown: #221100;
+    --bone: #ddccbb;
+    --med-brown: #554433;
+    --light-brown: #977B56;
+}
+html{
+    background-color: var(--bone);
+    font-size: 62.5%;
+    color: var(--dark-brown);
+}
+#main{
+    position: relative;
+    top: -10px;
+    /*position and top set to remove the sliver of var(--bone) showing at the top of the page*/
+    font-family: 'crimson pro', serif;
+    font-size: 2rem;
+    background-color: var(--med-brown);
+    margin: 0rem 2rem; 
+    padding-top: 7rem;
+    padding-bottom: 9rem;
+    /*padding-bottom is 2rem more to account for the footer*/
+}
+header{
+    margin: 0px;
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--light-brown);
+}
+h1{
+    text-shadow: 1px 1px 1px var(--bone);
+    margin-bottom: 1rem;
+}
+header p{
+    margin-top: 1rem;
+}
+#img-div{
+    margin: 3rem 0rem;
+    padding: 3rem 3rem;
+    text-align: center;
+    color: var(--med-brown);
+    display: flex;
+    justify-content: space-around;
+}
+#quote{
+    background-color: var(--bone);
+    width: 20vw;
+    margin: 1rem;
+    padding: 1rem;
+    height: fit-content;
+    align-self: flex-start;
+    border-radius: 15px/45px;
+}
+img{
+    border: 5px solid var(--bone);
+    max-width: 100%;
+    width: 30vw;
+    height: auto;
+    margin: 0em 1rem;
+}
+#img-caption{
+    background-color: var(--bone);
+    width: 20vw;
+    padding: 1rem;
+    margin: 1rem;
+    height: fit-content;
+    align-self: flex-end;
+    border-radius: 15px/45px;
+}
+section{
+    margin: 3em 0em;
+    background-color: var(--light-brown);
+    padding: 2rem 10%;
+}
+
+#tribute-info{
+    margin: 0em 0em 3em 0em;
+}
+
+.tribute-link{
+    text-decoration: none;
+    color: var(--dark-brown);
+    text-shadow: 1px 1px 0px var(--bone);
+    font-weight: bold;
+}
+.tribute-link:hover{
+    color: var(--bone);
+    text-shadow: 2px 2px 0px var(--dark-brown);
+    font-weight: normal;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    background-color: var(--bone);
+    text-align: right;
+    color: var(--med-brown);
+}
+@media (max-width: 750px) {
+    #main{
+        font-size: 1.8rem;
+    }
+    #img-div{
+        display: block;
+        margin: 1rem 0rem;
+        padding: 1rem;
+    }
+    #quote{
+        margin-left: auto;
+        margin-right: auto;
+        width: 45vw;
+    }
+    #img-caption{
+        margin-left: auto;
+        margin-right: auto;
+        width: 45vw;
+    }
+
+}
+@media (max-width: 500px) {
+    #main{
+        font-size:1.6rem;
+    }
+}
