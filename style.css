@@ -1,3 +1,5 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 :root{
     --dark-brown: #221100;
     --bone: #ddccbb;
@@ -11,8 +13,8 @@ html{
 }
 #main{
     position: relative;
-    top: -10px;
-    /*position and top set to remove the sliver of var(--bone) showing at the top of the page*/
+    /*top: -10px;
+    position and top set to remove the sliver of var(--bone) showing at the top of the page*/
     font-family: 'crimson pro', serif;
     font-size: 2rem;
     background-color: var(--med-brown);
