@@ -11,8 +11,6 @@ html{
 }
 #main{
     position: relative;
-    /*top: -10px;
-    position and top set to remove the sliver of var(--bone) showing at the top of the page*/
     font-family: 'crimson pro', serif;
     font-size: 2rem;
     background-color: var(--med-brown);
@@ -110,6 +108,9 @@ footer{
         margin-left: auto;
         margin-right: auto;
         width: 45vw;
+    }
+    img{
+     width: 35vw;   
     }
     #img-caption{
         margin-left: auto;
